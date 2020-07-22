@@ -4782,7 +4782,7 @@ readers do not read off random characters that represent icons */
   display: block;
   font-size: 16px;
   text-transform: uppercase;
-  padding: 37px 19px;
+  padding: 37px 10px;
   transition: all 0.3s ease 0s; }
 
 .main-menu ul li:hover > a,
@@ -5779,6 +5779,9 @@ readers do not read off random characters that represent icons */
 .footer-1 {
   padding-left: 60px; }
 
+.footer-wrapper a:hover {
+  color: #8dc739; }
+
 .footer-title {
   color: #fff;
   font-size: 24px;
@@ -5830,14 +5833,20 @@ readers do not read off random characters that represent icons */
 
 .latest-news > li {
   margin-bottom: 15px;
-  overflow: hidden; }
+  padding-bottom: 15px;
+  overflow: hidden;
+  border-bottom: 1px dotted #04437c; }
 
 .latest-news > li:last-child {
-  margin-bottom: 0; }
+  margin-bottom: 0;
+  border: none; }
 
 .latest-news-img {
   float: left;
   margin-right: 11px; }
+
+.latest-news-content i {
+  margin-right: 5px; }
 
 .latest-news-content span {
   color: #fff;
@@ -5883,6 +5892,9 @@ readers do not read off random characters that represent icons */
 
 .footer-img a:hover::before {
   opacity: 0.7; }
+
+.view-all {
+  font-size: 10px; }
 
 .subscribes-area {
   border-top: 1px solid #1c4e81;

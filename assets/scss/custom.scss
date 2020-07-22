@@ -209,7 +209,7 @@ $black: #000;
 	display: block;
 	font-size: 16px;
 	text-transform: uppercase;
-	padding: 37px 19px;
+	padding: 37px 10px;
 	transition: all 0.3s ease 0s;
 }
 .main-menu ul li:hover > a,
@@ -1246,7 +1246,11 @@ $black: #000;
 	padding-left: 60px;
 }
 .footer-wrapper {
+	a:hover {
+		color: $main-color;
+	}
 }
+
 .footer-title {
 	color: #fff;
 	font-size: 24px;
@@ -1298,15 +1302,17 @@ $black: #000;
 }
 .latest-news > li {
 	margin-bottom: 15px;
+	padding-bottom: 15px;
 	overflow: hidden;
+	border-bottom: 1px dotted darken($color: $secondary-color, $amount: 10);
 }
 .latest-news > li:last-child {
 	margin-bottom: 0;
+	border: none;
 }
 .latest-news {
 }
-.latest-news-info {
-}
+
 .latest-news-img {
 	float: left;
 	margin-right: 11px;
@@ -1314,6 +1320,9 @@ $black: #000;
 .latest-news-img img {
 }
 .latest-news-content {
+	i {
+		margin-right: 5px;
+	}
 }
 .latest-news-content span {
 	color: #fff;
@@ -1359,6 +1368,9 @@ $black: #000;
 }
 .footer-img a:hover::before {
 	opacity: 0.7;
+}
+.view-all {
+	font-size: 10px;
 }
 .subscribes-area {
 	border-top: 1px solid #1c4e81;

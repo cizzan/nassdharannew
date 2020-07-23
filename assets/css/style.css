@@ -5312,6 +5312,20 @@ readers do not read off random characters that represent icons */
   transform: scaley(1); }
 
 /* courses-area */
+.courses-table {
+  border: none;
+  margin: 30px auto;
+  max-width: 600px;
+  background: #ffffff none repeat scroll 0 0;
+  box-shadow: 0 0 38px 0 rgba(188, 184, 184, 0.24); }
+  .courses-table .menu-link {
+    color: #fff; }
+  .courses-table tr th {
+    padding: 10px !important; }
+  .courses-table td {
+    color: #434343;
+    padding: 10px !important; }
+
 .section-title h4 {
   color: #8dc739;
   font-size: 30px;

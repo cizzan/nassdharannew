@@ -7681,6 +7681,21 @@ readers do not read off random characters that represent icons */
 .event-style-02-img span i {
   margin-right: 10px; }
 
+.event-style-02-img .category {
+  background: #8dc739 none repeat scroll 0 0;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 700;
+  right: 0;
+  line-height: 1;
+  padding: 14px 16px;
+  position: absolute;
+  bottom: 0;
+  width: 100%; }
+
+.event-style-02-img .category i {
+  margin-right: 10px; }
+
 .event-style-02-content {
   margin-top: 25px; }
 
@@ -8914,6 +8929,8 @@ a.next-btn {
 
 .upcoming-info {
   margin-bottom: 15px; }
+  .upcoming-info i {
+    margin-right: 10px; }
 
 .upcoming-content h4 {
   font-size: 18px;

@@ -467,7 +467,7 @@ $black: #000;
 	color: #fff;
 }
 .slider-text a:before {
-	background: #000 none repeat scroll 0 0;
+	background: $secondary-color none repeat scroll 0 0;
 	bottom: 0;
 	content: "";
 	left: 0;
@@ -735,7 +735,7 @@ $black: #000;
 	vertical-align: middle;
 }
 .campus-content a::before {
-	background: #000 none repeat scroll 0 0;
+	background: $secondary-color none repeat scroll 0 0;
 	bottom: 0;
 	content: "";
 	left: 0;
@@ -800,7 +800,7 @@ $black: #000;
 	font-size: 14px;
 	font-weight: 400;
 	line-height: 23px;
-	width: 665px;
+	text-align: justify;
 }
 .videos-wrapper {
 	width: 100%;
@@ -2252,7 +2252,7 @@ $black: #000;
 }
 .instructor-content {
 	background: #0c314e none repeat scroll 0 0;
-	padding: 0 10px 15px;
+	padding: 10px 15px;
 	transition: 0.3s;
 }
 .instructor-wrapper:hover .instructor-content {
@@ -2297,6 +2297,22 @@ $black: #000;
 }
 .instructor-img > img {
 	width: 100%;
+}
+.instructor-name{
+	border-left: 3px solid lighten($color: $black, $amount: 90);
+	padding-left: 10px;
+	h4{
+		font-size: 16px;
+		color: $secondary-color;
+		font-weight: 700;
+		margin-bottom: 5px;
+		text-transform: capitalize;
+	}
+	span{
+		
+		font-size: 12px;
+		font-weight: 400;
+	}
 }
 /* testimonial-area */
 .testimonial-area {

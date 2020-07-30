@@ -1,3 +1,4 @@
+
 (function ($) {
     "use strict";
 
@@ -16,7 +17,7 @@
         meanScreenWidth: "991"
     });
 
-    // When the user scrolls the page, execute myFunction
+    /*// When the user scrolls the page, execute myFunction
     window.onscroll = function () { myFunction() };
 
     // Get the navbar
@@ -32,7 +33,7 @@
         } else {
             navbar.classList.remove("sticky");
         }
-    }
+    }*/
     /* slider-active */
     $('.slider-active').owlCarousel({
         loop: true,

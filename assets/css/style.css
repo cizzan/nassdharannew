@@ -4631,6 +4631,29 @@ readers do not read off random characters that represent icons */
 	32. login
 	33. welcome-area
 -----------------------------------------------------------------------------------*/
+.modal-open[style] {
+  padding-right: 0px !important; }
+
+blink {
+  -webkit-animation: 2s linear infinite condemned_blink_effect;
+  /* for Safari 4.0 - 8.0 */
+  animation: 2s linear infinite condemned_blink_effect; }
+
+/* for Safari 4.0 - 8.0 */
+@-webkit-keyframes condemned_blink_effect {
+  0% {
+    visibility: hidden; }
+  50% {
+    visibility: hidden; }
+  100% {
+    visibility: visible; } }
+@keyframes condemned_blink_effect {
+  0% {
+    visibility: hidden; }
+  50% {
+    visibility: hidden; }
+  100% {
+    visibility: visible; } }
 .blue-bg {
   background: #054a8a; }
 
@@ -4713,6 +4736,15 @@ readers do not read off random characters that represent icons */
 
 .header-button a:hover::before {
   transform: scaley(1); }
+
+.floating-button {
+  position: fixed;
+  bottom: 20px;
+  z-index: 1000; }
+  .floating-button a {
+    border-radius: 0; }
+  .floating-button a::before {
+    border-radius: 0; }
 
 .header-right-text {
   color: #fff; }
@@ -5001,7 +5033,7 @@ readers do not read off random characters that represent icons */
 .slider-text h1 {
   color: #ffffff;
   font-size: 50px;
-  font-weight: 900;
+  font-weight: 700;
   line-height: 60px;
   margin-bottom: 21px;
   text-transform: capitalize; }
@@ -5011,9 +5043,9 @@ readers do not read off random characters that represent icons */
 
 .slider-info p {
   color: #ffffff;
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 28px;
+  font-size: 17px;
+  font-weight: normal;
+  line-height: 25px;
   margin-bottom: 35px; }
 
 .slider-text a {
@@ -5035,7 +5067,7 @@ readers do not read off random characters that represent icons */
   color: #fff; }
 
 .slider-text a:before {
-  background: #000 none repeat scroll 0 0;
+  background: #065dad none repeat scroll 0 0;
   bottom: 0;
   content: "";
   left: 0;
@@ -5235,7 +5267,7 @@ readers do not read off random characters that represent icons */
   background: #fff none repeat scroll 0 0;
   box-shadow: 0 0 38px 0 rgba(188, 184, 184, 0.24);
   overflow: hidden;
-  padding: 96px 80px 72px 70px;
+  padding: 70px 80px 72px 70px;
   min-height: 467px; }
 
 .campus-tab li {
@@ -5274,7 +5306,8 @@ readers do not read off random characters that represent icons */
   font-size: 14px;
   font-weight: 400;
   line-height: 23px;
-  margin-bottom: 24px; }
+  margin-bottom: 24px;
+  text-align: justify; }
 
 .campus-content a {
   background: #8dc739 none repeat scroll 0 0;
@@ -5293,7 +5326,7 @@ readers do not read off random characters that represent icons */
   vertical-align: middle; }
 
 .campus-content a::before {
-  background: #000 none repeat scroll 0 0;
+  background: #065dad none repeat scroll 0 0;
   bottom: 0;
   content: "";
   left: 0;
@@ -5312,6 +5345,20 @@ readers do not read off random characters that represent icons */
   transform: scaley(1); }
 
 /* courses-area */
+.courses-table {
+  border: none;
+  margin: 30px auto;
+  max-width: 600px;
+  background: #ffffff none repeat scroll 0 0;
+  box-shadow: 0 0 38px 0 rgba(188, 184, 184, 0.24); }
+  .courses-table .menu-link {
+    color: #fff; }
+  .courses-table tr th {
+    padding: 10px !important; }
+  .courses-table td {
+    color: #434343;
+    padding: 10px !important; }
+
 .section-title h4 {
   color: #8dc739;
   font-size: 30px;
@@ -5335,7 +5382,7 @@ readers do not read off random characters that represent icons */
   font-size: 14px;
   font-weight: 400;
   line-height: 23px;
-  width: 665px; }
+  text-align: justify; }
 
 .videos-wrapper {
   width: 100%; }
@@ -5469,7 +5516,6 @@ readers do not read off random characters that represent icons */
   border-radius: 100%;
   color: #666666;
   display: inline-block;
-  font-family: montserrat;
   font-size: 14px;
   font-weight: 700;
   height: 34px;
@@ -6021,6 +6067,12 @@ readers do not read off random characters that represent icons */
   position: absolute;
   top: 0; }
 
+.abouts-img1 {
+  background-position: center center;
+  background-size: contain;
+  min-height: 477px;
+  padding: 0; }
+
 /* footer-bottom-area */
 .footer-bottom-area {
   background-position: center center;
@@ -6066,21 +6118,21 @@ readers do not read off random characters that represent icons */
   z-index: 999; }
 
 .bg-1 {
-  background: #e8a505; }
+  background: #04437c; }
 
 .bg-2 {
   background: #f0ab06; }
 
 .bg-3 {
-  background: #8dc739; }
+  background: #065dad; }
 
 .featured-wrapper {
   padding: 56px 100px 50px; }
 
 .featured-icon i {
-  background: #ffcc50;
+  background: #fff;
   border-radius: 50%;
-  color: #fff;
+  color: #065dad;
   display: inline-block;
   font-size: 30px;
   height: 66px;
@@ -6493,7 +6545,7 @@ readers do not read off random characters that represent icons */
 .top-event-content > a {
   background: #8dc739 none repeat scroll 0 0;
   border-radius: 5px;
-  color: #065dad;
+  color: #fff;
   display: inline-block;
   font-size: 12px;
   font-weight: bold;
@@ -6506,7 +6558,7 @@ readers do not read off random characters that represent icons */
   text-transform: uppercase; }
 
 .top-event-content > a::before {
-  background: #000 none repeat scroll 0 0;
+  background: #065dad none repeat scroll 0 0;
   bottom: 0;
   content: "";
   left: 0;
@@ -6525,7 +6577,7 @@ readers do not read off random characters that represent icons */
   transform: scaley(1); }
 
 .top-event-content > a:hover {
-  color: #8dc739; }
+  color: #fff; }
 
 .top-event-title {
   color: #bbbbbb;
@@ -6703,11 +6755,24 @@ readers do not read off random characters that represent icons */
 
 .instructor-content {
   background: #0c314e none repeat scroll 0 0;
-  padding: 0 10px 15px;
+  padding: 10px 15px;
   transition: 0.3s; }
 
 .instructor-wrapper:hover .instructor-content {
   background: #8dc739; }
+
+.instructor-name {
+  border-left: 3px solid #e6e6e6;
+  padding-left: 10px; }
+  .instructor-name h4 {
+    font-size: 16px;
+    color: #065dad;
+    font-weight: 700;
+    margin-bottom: 5px;
+    text-transform: capitalize; }
+  .instructor-name span {
+    font-size: 12px;
+    font-weight: 400; }
 
 .instructor-icon {
   margin-bottom: 15px;
@@ -7273,7 +7338,8 @@ readers do not read off random characters that represent icons */
   margin-right: 20px; }
 
 .latest-courses-image img {
-  width: 100%; }
+  width: 120px;
+  height: 120px; }
 
 .latest-courses-body {
   overflow: hidden;
@@ -7385,8 +7451,7 @@ readers do not read off random characters that represent icons */
   color: #065dad;
   font-size: 30px;
   font-weight: 700;
-  margin-bottom: 0;
-  margin-top: 18px; }
+  margin-bottom: 0; }
 
 .course-description-content {
   margin-top: 45px; }
@@ -7415,7 +7480,8 @@ readers do not read off random characters that represent icons */
   margin-bottom: 0; }
 
 .Courses-Features {
-  padding: 31px 70px; }
+  padding: 31px 70px;
+  overflow: auto; }
 
 .Courses-Features-title {
   color: #ffffff;
@@ -7665,6 +7731,21 @@ readers do not read off random characters that represent icons */
   opacity: 1; }
 
 .event-style-02-img span i {
+  margin-right: 10px; }
+
+.event-style-02-img .category {
+  background: #8dc739 none repeat scroll 0 0;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 700;
+  right: 0;
+  line-height: 1;
+  padding: 14px 16px;
+  position: absolute;
+  bottom: 0;
+  width: 100%; }
+
+.event-style-02-img .category i {
   margin-right: 10px; }
 
 .event-style-02-content {
@@ -7988,6 +8069,10 @@ readers do not read off random characters that represent icons */
 .post-title > a {
   color: #065dad;
   transition: 0.3s; }
+
+.download {
+  color: #065dad;
+  font-size: 36px; }
 
 .post-title > a:hover {
   color: #8dc739; }
@@ -8577,9 +8662,11 @@ a.next-btn {
   font-size: 14px;
   font-weight: 700;
   margin-bottom: 0;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  margin-left: 40px;
+  line-height: 25px; }
 
-.panel-heading h4 a::after {
+.panel-heading h4 a::before {
   background: #8dc739 none repeat scroll 0 0;
   border: 1px solid #8dc739;
   border-radius: 50px;
@@ -8592,8 +8679,10 @@ a.next-btn {
   line-height: 24px;
   text-align: center;
   width: 25px;
-  margin-right: 9px;
-  margin-top: -3px; }
+  /* margin-right: 12px; */
+  /* margin-top: -3px; */
+  position: absolute;
+  left: 30px; }
 
 .panel-body {
   padding: 0 34px 0 51px; }
@@ -8605,7 +8694,7 @@ a.next-btn {
   line-height: 23px;
   margin-bottom: 0; }
 
-.panel-heading h4 a.collapsed::after {
+.panel-heading h4 a.collapsed::before {
   content: "\f278"; }
 
 .panel-default > .panel-heading {
@@ -8637,7 +8726,7 @@ a.next-btn {
 
 /* register now */
 .modals-dialog {
-  margin: 150px auto;
+  margin: 10px auto;
   width: 870px; }
 
 .register-now-button {
@@ -8900,6 +8989,8 @@ a.next-btn {
 
 .upcoming-info {
   margin-bottom: 15px; }
+  .upcoming-info i {
+    margin-right: 10px; }
 
 .upcoming-content h4 {
   font-size: 18px;

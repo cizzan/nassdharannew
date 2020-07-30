@@ -6814,6 +6814,19 @@ blink {
 .instructor-img > img {
   width: 100%; }
 
+.instructor-name {
+  border-left: 3px solid #e6e6e6;
+  padding-left: 10px; }
+  .instructor-name h4 {
+    font-size: 16px;
+    color: #065dad;
+    font-weight: 700;
+    margin-bottom: 5px;
+    text-transform: capitalize; }
+  .instructor-name span {
+    font-size: 12px;
+    font-weight: 400; }
+
 /* testimonial-area */
 .testimonial-area {
   background-size: cover;

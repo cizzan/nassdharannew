@@ -515,6 +515,7 @@ blink {
   color: #fff;
 }
 .slider-text a:before {
+<<<<<<< HEAD
   background: $secondary-color none repeat scroll 0 0;
   bottom: 0;
   content: "";
@@ -529,6 +530,22 @@ blink {
   transition-timing-function: ease-out;
   z-index: -1;
   border-radius: 5px;
+=======
+	background: $secondary-color none repeat scroll 0 0;
+	bottom: 0;
+	content: "";
+	left: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+	transform: scaleY(0);
+	transform-origin: 50% 0 0;
+	transition-duration: 0.3s;
+	transition-property: transform;
+	transition-timing-function: ease-out;
+	z-index: -1;
+	border-radius: 5px;
+>>>>>>> f19a8a3066503bf55b1d080e69969cfa69fcb526
 }
 .slider-text a:hover::before {
   transform: scaley(1);
@@ -784,6 +801,7 @@ blink {
   vertical-align: middle;
 }
 .campus-content a::before {
+<<<<<<< HEAD
   background: $secondary-color none repeat scroll 0 0;
   bottom: 0;
   content: "";
@@ -798,6 +816,22 @@ blink {
   transition-timing-function: ease-out;
   z-index: -1;
   border-radius: 5px;
+=======
+	background: $secondary-color none repeat scroll 0 0;
+	bottom: 0;
+	content: "";
+	left: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+	transform: scaleY(0);
+	transform-origin: 50% 0 0;
+	transition-duration: 0.3s;
+	transition-property: transform;
+	transition-timing-function: ease-out;
+	z-index: -1;
+	border-radius: 5px;
+>>>>>>> f19a8a3066503bf55b1d080e69969cfa69fcb526
 }
 .campus-content a:hover::before {
   transform: scaley(1);
@@ -806,6 +840,7 @@ blink {
 .courses-area {
 }
 .courses-table {
+<<<<<<< HEAD
   border: none;
   margin: 30px auto;
   max-width: 600px;
@@ -823,6 +858,25 @@ blink {
     color: #434343;
     padding: 10px !important;
   }
+=======
+	border: none;
+	margin: 30px auto;
+	max-width: 600px;
+	background: #ffffff none repeat scroll 0 0;
+	box-shadow: 0 0 38px 0 rgba(188, 184, 184, 0.24);
+	.menu-link {
+		color: $white;
+	}
+	tr {
+		th {
+			padding: 10px !important;
+		}
+	}
+	td {
+		color: #434343;
+		padding: 10px !important;
+	}
+>>>>>>> f19a8a3066503bf55b1d080e69969cfa69fcb526
 }
 .section-title {
 }
@@ -845,11 +899,19 @@ blink {
   width: 100px;
 }
 .section-title p {
+<<<<<<< HEAD
   color: #6f6f6f;
   font-size: 14px;
   font-weight: 400;
   line-height: 23px;
   text-align: justify;
+=======
+	color: #6f6f6f;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 23px;
+	text-align: justify;
+>>>>>>> f19a8a3066503bf55b1d080e69969cfa69fcb526
 }
 .videos-wrapper {
   width: 100%;
@@ -2307,9 +2369,15 @@ blink {
   box-shadow: 0 11px 19px 0 rgba(69, 69, 69, 0.19);
 }
 .instructor-content {
+<<<<<<< HEAD
   background: #0c314e none repeat scroll 0 0;
   padding: 10px 15px;
   transition: 0.3s;
+=======
+	background: #0c314e none repeat scroll 0 0;
+	padding: 10px 15px;
+	transition: 0.3s;
+>>>>>>> f19a8a3066503bf55b1d080e69969cfa69fcb526
 }
 .instructor-wrapper:hover .instructor-content {
   background: $main-color;
@@ -2368,6 +2436,22 @@ blink {
 }
 .instructor-img > img {
   width: 100%;
+}
+.instructor-name{
+	border-left: 3px solid lighten($color: $black, $amount: 90);
+	padding-left: 10px;
+	h4{
+		font-size: 16px;
+		color: $secondary-color;
+		font-weight: 700;
+		margin-bottom: 5px;
+		text-transform: capitalize;
+	}
+	span{
+		
+		font-size: 12px;
+		font-weight: 400;
+	}
 }
 /* testimonial-area */
 .testimonial-area {
@@ -3342,6 +3426,7 @@ blink {
   margin-right: 10px;
 }
 
+<<<<<<< HEAD
 .event-style-02-img .category {
   background: $main-color none repeat scroll 0 0;
   color: #ffffff;
@@ -3358,6 +3443,30 @@ blink {
   margin-right: 10px;
 }
 
+=======
+
+
+.event-style-02-img .category {
+	background: $main-color none repeat scroll 0 0;
+	color: #ffffff;
+	font-size: 12px;
+	font-weight: 700;
+	right: 0;
+	line-height: 1;
+	padding: 14px 16px;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	
+}
+.event-style-02-img .category i {
+	margin-right: 10px;
+}
+
+
+
+
+>>>>>>> f19a8a3066503bf55b1d080e69969cfa69fcb526
 .event-style-02-content {
   margin-top: 25px;
 }
@@ -4635,10 +4744,17 @@ a.next-btn {
   margin-bottom: 0;
 }
 .upcoming-info {
+<<<<<<< HEAD
   margin-bottom: 15px;
   i {
     margin-right: 10px;
   }
+=======
+	margin-bottom: 15px;
+	i{
+		margin-right: 10px;
+	}
+>>>>>>> f19a8a3066503bf55b1d080e69969cfa69fcb526
 }
 .upcoming-content h4 {
   font-size: 18px;
